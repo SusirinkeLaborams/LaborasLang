@@ -10,6 +10,7 @@ using LaborasLangCompiler.Parser.Impl.Wrappers;
 using Lexer.Containers;
 using LaborasLangCompiler.Codegen;
 using Lexer;
+using LaborasLangCompiler.Parser.Impl.Operators;
 
 namespace LaborasLangCompiler.Parser.Impl
 {
@@ -27,7 +28,7 @@ namespace LaborasLangCompiler.Parser.Impl
             ExpressionNode ret = null;
             switch (lexerNode.Type)
             {
-                case Lexer.TokenType.PeriodNode:
+                //case Lexer.TokenType.PeriodNode:
                 case Lexer.TokenType.FullSymbol:
                     ret = DotOperatorNode.Parse(context, lexerNode);
                     break;
@@ -43,23 +44,8 @@ namespace LaborasLangCompiler.Parser.Impl
                 case Lexer.TokenType.Function:
                     ret = MethodNode.Parse(context, lexerNode);
                     break;
-                case Lexer.TokenType.AssignmentOperatorNode:
-                    ret = AssignmentOperatorNode.Parse(context, lexerNode);
-                    break;
-                case Lexer.TokenType.FunctionCallNode:
-                    ret = MethodCallNode.Parse(context, lexerNode);
-                    break;
-                case Lexer.TokenType.LogicalOrNode:
-                case Lexer.TokenType.LogicalAndNode:
-                case Lexer.TokenType.BitwiseOrNode:
-                case Lexer.TokenType.BitwiseXorNode:
-                case Lexer.TokenType.BitwiseAndNode:
-                case Lexer.TokenType.EqualityOperatorNode:
-                case Lexer.TokenType.RelationalOperatorNode:
-                case Lexer.TokenType.ShiftOperatorNode:
-                case Lexer.TokenType.AdditiveOperatorNode:
-                case Lexer.TokenType.MultiplicativeOperatorNode:
-                    ret = BinaryOperatorNode.Parse(context, lexerNode);
+                case Lexer.TokenType.InfixNode:
+                    ret = InfixParser.Parse(context, lexerNode);
                     break;
                 case Lexer.TokenType.PostfixNode:
                 case Lexer.TokenType.PrefixNode:
@@ -70,9 +56,6 @@ namespace LaborasLangCompiler.Parser.Impl
                     break;
                 case Lexer.TokenType.ArrayLiteral:
                     ret = ArrayCreationNode.Parse(context, lexerNode);
-                    break;
-                case Lexer.TokenType.IndexAccessNode:
-                    ret = ArrayAccessNode.Parse(context, lexerNode);
                     break;
                 default:
                     throw new NotImplementedException();

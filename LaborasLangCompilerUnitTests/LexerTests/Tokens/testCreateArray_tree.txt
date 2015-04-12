@@ -36,8 +36,8 @@ Children:
 		Type: Assignment
 		Children:
 
-		Content: Type: Value, Start: 1, 11, End: 1, 14, Content: ""
-		Type: Value
+		Content: Type: Type, Start: 1, 11, End: 1, 14, Content: ""
+		Type: Type
 		Children:
 			Content: Type: FullSymbol, Start: 1, 11, End: 1, 14, Content: ""
 			Type: FullSymbol

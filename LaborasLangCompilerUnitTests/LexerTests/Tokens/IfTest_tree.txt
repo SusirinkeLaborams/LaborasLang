@@ -12,8 +12,8 @@ Children:
 		Type: LeftParenthesis
 		Children:
 
-		Content: Type: Value, Start: 2, 16, End: 2, 25, Content: ""
-		Type: Value
+		Content: Type: Type, Start: 2, 16, End: 2, 25, Content: ""
+		Type: Type
 		Children:
 			Content: Type: FullSymbol, Start: 2, 16, End: 2, 25, Content: ""
 			Type: FullSymbol
@@ -33,21 +33,21 @@ Children:
 			Type: LeftCurlyBrace
 			Children:
 
-			Content: Type: Value, Start: 4, 17, End: 4, 24, Content: ""
-			Type: Value
+			Content: Type: Type, Start: 4, 17, End: 4, 24, Content: ""
+			Type: Type
 			Children:
-				Content: Type: FunctionCallNode, Start: 4, 17, End: 4, 24, Content: ""
-				Type: FunctionCallNode
+				Content: Type: FullSymbol, Start: 4, 17, End: 4, 22, Content: ""
+				Type: FullSymbol
 				Children:
-					Content: Type: FullSymbol, Start: 4, 17, End: 4, 22, Content: ""
-					Type: FullSymbol
+					Content: Type: Symbol, Start: 4, 17, End: 4, 22, Content: "stuff"
+					Type: Symbol
 					Children:
-						Content: Type: Symbol, Start: 4, 17, End: 4, 22, Content: "stuff"
-						Type: Symbol
-						Children:
 
-					Content: Type: FunctionArgumentsList, Start: 4, 22, End: 4, 24, Content: ""
-					Type: FunctionArgumentsList
+				Content: Type: ParameterList, Start: 4, 22, End: 4, 24, Content: ""
+				Type: ParameterList
+				Children:
+					Content: Type: FunctorParameters, Start: 4, 22, End: 4, 24, Content: ""
+					Type: FunctorParameters
 					Children:
 						Content: Type: LeftParenthesis, Start: 4, 22, End: 4, 23, Content: "("
 						Type: LeftParenthesis
@@ -76,21 +76,21 @@ Children:
 			Type: LeftCurlyBrace
 			Children:
 
-			Content: Type: Value, Start: 8, 13, End: 8, 21, Content: ""
-			Type: Value
+			Content: Type: Type, Start: 8, 13, End: 8, 21, Content: ""
+			Type: Type
 			Children:
-				Content: Type: FunctionCallNode, Start: 8, 13, End: 8, 21, Content: ""
-				Type: FunctionCallNode
+				Content: Type: FullSymbol, Start: 8, 13, End: 8, 19, Content: ""
+				Type: FullSymbol
 				Children:
-					Content: Type: FullSymbol, Start: 8, 13, End: 8, 19, Content: ""
-					Type: FullSymbol
+					Content: Type: Symbol, Start: 8, 13, End: 8, 19, Content: "stuff2"
+					Type: Symbol
 					Children:
-						Content: Type: Symbol, Start: 8, 13, End: 8, 19, Content: "stuff2"
-						Type: Symbol
-						Children:
 
-					Content: Type: FunctionArgumentsList, Start: 8, 19, End: 8, 21, Content: ""
-					Type: FunctionArgumentsList
+				Content: Type: ParameterList, Start: 8, 19, End: 8, 21, Content: ""
+				Type: ParameterList
+				Children:
+					Content: Type: FunctorParameters, Start: 8, 19, End: 8, 21, Content: ""
+					Type: FunctorParameters
 					Children:
 						Content: Type: LeftParenthesis, Start: 8, 19, End: 8, 20, Content: "("
 						Type: LeftParenthesis
@@ -119,8 +119,8 @@ Children:
 		Type: LeftParenthesis
 		Children:
 
-		Content: Type: Value, Start: 11, 16, End: 11, 25, Content: ""
-		Type: Value
+		Content: Type: Type, Start: 11, 16, End: 11, 25, Content: ""
+		Type: Type
 		Children:
 			Content: Type: FullSymbol, Start: 11, 16, End: 11, 25, Content: ""
 			Type: FullSymbol
@@ -140,21 +140,21 @@ Children:
 			Type: LeftCurlyBrace
 			Children:
 
-			Content: Type: Value, Start: 13, 17, End: 13, 24, Content: ""
-			Type: Value
+			Content: Type: Type, Start: 13, 17, End: 13, 24, Content: ""
+			Type: Type
 			Children:
-				Content: Type: FunctionCallNode, Start: 13, 17, End: 13, 24, Content: ""
-				Type: FunctionCallNode
+				Content: Type: FullSymbol, Start: 13, 17, End: 13, 22, Content: ""
+				Type: FullSymbol
 				Children:
-					Content: Type: FullSymbol, Start: 13, 17, End: 13, 22, Content: ""
-					Type: FullSymbol
+					Content: Type: Symbol, Start: 13, 17, End: 13, 22, Content: "stuff"
+					Type: Symbol
 					Children:
-						Content: Type: Symbol, Start: 13, 17, End: 13, 22, Content: "stuff"
-						Type: Symbol
-						Children:
 
-					Content: Type: FunctionArgumentsList, Start: 13, 22, End: 13, 24, Content: ""
-					Type: FunctionArgumentsList
+				Content: Type: ParameterList, Start: 13, 22, End: 13, 24, Content: ""
+				Type: ParameterList
+				Children:
+					Content: Type: FunctorParameters, Start: 13, 22, End: 13, 24, Content: ""
+					Type: FunctorParameters
 					Children:
 						Content: Type: LeftParenthesis, Start: 13, 22, End: 13, 23, Content: "("
 						Type: LeftParenthesis

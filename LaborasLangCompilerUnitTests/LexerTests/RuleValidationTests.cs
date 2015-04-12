@@ -99,6 +99,7 @@ namespace LaborasLangCompilerUnitTests.LexerTests
             }
         }
 
+
         void TraverseRules(ParseRule[] rules, bool[] visited, Stack<ParseRule> traverseStack, int token)
         {
             traverseStack.Push(rules[token]);

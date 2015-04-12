@@ -12,28 +12,28 @@ Children:
 		Type: LeftParenthesis
 		Children:
 
-		Content: Type: Value, Start: 1, 5, End: 1, 14, Content: ""
-		Type: Value
+		Content: Type: Type, Start: 1, 5, End: 1, 14, Content: ""
+		Type: Type
 		Children:
-			Content: Type: FunctionCallNode, Start: 1, 5, End: 1, 14, Content: ""
-			Type: FunctionCallNode
+			Content: Type: FullSymbol, Start: 1, 5, End: 1, 11, Content: ""
+			Type: FullSymbol
 			Children:
-				Content: Type: FullSymbol, Start: 1, 5, End: 1, 11, Content: ""
-				Type: FullSymbol
+				Content: Type: Symbol, Start: 1, 5, End: 1, 11, Content: "IsEven"
+				Type: Symbol
 				Children:
-					Content: Type: Symbol, Start: 1, 5, End: 1, 11, Content: "IsEven"
-					Type: Symbol
-					Children:
 
-				Content: Type: FunctionArgumentsList, Start: 1, 11, End: 1, 14, Content: ""
-				Type: FunctionArgumentsList
+			Content: Type: ParameterList, Start: 1, 11, End: 1, 14, Content: ""
+			Type: ParameterList
+			Children:
+				Content: Type: FunctorParameters, Start: 1, 11, End: 1, 14, Content: ""
+				Type: FunctorParameters
 				Children:
 					Content: Type: LeftParenthesis, Start: 1, 11, End: 1, 12, Content: "("
 					Type: LeftParenthesis
 					Children:
 
-					Content: Type: Value, Start: 1, 12, End: 1, 13, Content: ""
-					Type: Value
+					Content: Type: Type, Start: 1, 12, End: 1, 13, Content: ""
+					Type: Type
 					Children:
 						Content: Type: FullSymbol, Start: 1, 12, End: 1, 13, Content: ""
 						Type: FullSymbol

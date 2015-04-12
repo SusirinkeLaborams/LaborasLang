@@ -1,21 +1,21 @@
 Content: Type: RootNode, Start: 2, 1, End: 5, 11, Content: ""
 Type: RootNode
 Children:
-	Content: Type: Value, Start: 2, 1, End: 2, 6, Content: ""
-	Type: Value
+	Content: Type: Type, Start: 2, 1, End: 2, 6, Content: ""
+	Type: Type
 	Children:
-		Content: Type: FunctionCallNode, Start: 2, 1, End: 2, 6, Content: ""
-		Type: FunctionCallNode
+		Content: Type: FullSymbol, Start: 2, 1, End: 2, 4, Content: ""
+		Type: FullSymbol
 		Children:
-			Content: Type: FullSymbol, Start: 2, 1, End: 2, 4, Content: ""
-			Type: FullSymbol
+			Content: Type: Symbol, Start: 2, 1, End: 2, 4, Content: "foo"
+			Type: Symbol
 			Children:
-				Content: Type: Symbol, Start: 2, 1, End: 2, 4, Content: "foo"
-				Type: Symbol
-				Children:
 
-			Content: Type: FunctionArgumentsList, Start: 2, 4, End: 2, 6, Content: ""
-			Type: FunctionArgumentsList
+		Content: Type: ParameterList, Start: 2, 4, End: 2, 6, Content: ""
+		Type: ParameterList
+		Children:
+			Content: Type: FunctorParameters, Start: 2, 4, End: 2, 6, Content: ""
+			Type: FunctorParameters
 			Children:
 				Content: Type: LeftParenthesis, Start: 2, 4, End: 2, 5, Content: "("
 				Type: LeftParenthesis
@@ -29,28 +29,28 @@ Children:
 	Type: EndOfLine
 	Children:
 
-	Content: Type: Value, Start: 3, 1, End: 3, 9, Content: ""
-	Type: Value
+	Content: Type: Type, Start: 3, 1, End: 3, 9, Content: ""
+	Type: Type
 	Children:
-		Content: Type: FunctionCallNode, Start: 3, 1, End: 3, 9, Content: ""
-		Type: FunctionCallNode
+		Content: Type: FullSymbol, Start: 3, 1, End: 3, 4, Content: ""
+		Type: FullSymbol
 		Children:
-			Content: Type: FullSymbol, Start: 3, 1, End: 3, 4, Content: ""
-			Type: FullSymbol
+			Content: Type: Symbol, Start: 3, 1, End: 3, 4, Content: "foo"
+			Type: Symbol
 			Children:
-				Content: Type: Symbol, Start: 3, 1, End: 3, 4, Content: "foo"
-				Type: Symbol
-				Children:
 
-			Content: Type: FunctionArgumentsList, Start: 3, 4, End: 3, 9, Content: ""
-			Type: FunctionArgumentsList
+		Content: Type: ParameterList, Start: 3, 4, End: 3, 9, Content: ""
+		Type: ParameterList
+		Children:
+			Content: Type: FunctorParameters, Start: 3, 4, End: 3, 9, Content: ""
+			Type: FunctorParameters
 			Children:
 				Content: Type: LeftParenthesis, Start: 3, 4, End: 3, 5, Content: "("
 				Type: LeftParenthesis
 				Children:
 
-				Content: Type: Value, Start: 3, 5, End: 3, 8, Content: ""
-				Type: Value
+				Content: Type: Type, Start: 3, 5, End: 3, 8, Content: ""
+				Type: Type
 				Children:
 					Content: Type: FullSymbol, Start: 3, 5, End: 3, 8, Content: ""
 					Type: FullSymbol
@@ -67,41 +67,41 @@ Children:
 	Type: EndOfLine
 	Children:
 
-	Content: Type: Value, Start: 4, 1, End: 4, 16, Content: ""
-	Type: Value
+	Content: Type: Type, Start: 4, 1, End: 4, 16, Content: ""
+	Type: Type
 	Children:
-		Content: Type: FunctionCallNode, Start: 4, 1, End: 4, 16, Content: ""
-		Type: FunctionCallNode
+		Content: Type: FullSymbol, Start: 4, 1, End: 4, 4, Content: ""
+		Type: FullSymbol
 		Children:
-			Content: Type: FullSymbol, Start: 4, 1, End: 4, 4, Content: ""
-			Type: FullSymbol
+			Content: Type: Symbol, Start: 4, 1, End: 4, 4, Content: "foo"
+			Type: Symbol
 			Children:
-				Content: Type: Symbol, Start: 4, 1, End: 4, 4, Content: "foo"
-				Type: Symbol
-				Children:
 
-			Content: Type: FunctionArgumentsList, Start: 4, 4, End: 4, 16, Content: ""
-			Type: FunctionArgumentsList
+		Content: Type: ParameterList, Start: 4, 4, End: 4, 16, Content: ""
+		Type: ParameterList
+		Children:
+			Content: Type: FunctorParameters, Start: 4, 4, End: 4, 16, Content: ""
+			Type: FunctorParameters
 			Children:
 				Content: Type: LeftParenthesis, Start: 4, 4, End: 4, 5, Content: "("
 				Type: LeftParenthesis
 				Children:
 
-				Content: Type: Value, Start: 4, 5, End: 4, 10, Content: ""
-				Type: Value
+				Content: Type: Type, Start: 4, 5, End: 4, 10, Content: ""
+				Type: Type
 				Children:
-					Content: Type: FunctionCallNode, Start: 4, 5, End: 4, 10, Content: ""
-					Type: FunctionCallNode
+					Content: Type: FullSymbol, Start: 4, 5, End: 4, 8, Content: ""
+					Type: FullSymbol
 					Children:
-						Content: Type: FullSymbol, Start: 4, 5, End: 4, 8, Content: ""
-						Type: FullSymbol
+						Content: Type: Symbol, Start: 4, 5, End: 4, 8, Content: "foo"
+						Type: Symbol
 						Children:
-							Content: Type: Symbol, Start: 4, 5, End: 4, 8, Content: "foo"
-							Type: Symbol
-							Children:
 
-						Content: Type: FunctionArgumentsList, Start: 4, 8, End: 4, 10, Content: ""
-						Type: FunctionArgumentsList
+					Content: Type: ParameterList, Start: 4, 8, End: 4, 10, Content: ""
+					Type: ParameterList
+					Children:
+						Content: Type: FunctorParameters, Start: 4, 8, End: 4, 10, Content: ""
+						Type: FunctorParameters
 						Children:
 							Content: Type: LeftParenthesis, Start: 4, 8, End: 4, 9, Content: "("
 							Type: LeftParenthesis
@@ -115,8 +115,8 @@ Children:
 				Type: Comma
 				Children:
 
-				Content: Type: Value, Start: 4, 12, End: 4, 15, Content: ""
-				Type: Value
+				Content: Type: Type, Start: 4, 12, End: 4, 15, Content: ""
+				Type: Type
 				Children:
 					Content: Type: FullSymbol, Start: 4, 12, End: 4, 15, Content: ""
 					Type: FullSymbol
@@ -133,21 +133,21 @@ Children:
 	Type: EndOfLine
 	Children:
 
-	Content: Type: Value, Start: 5, 1, End: 5, 10, Content: ""
-	Type: Value
+	Content: Type: Type, Start: 5, 1, End: 5, 10, Content: ""
+	Type: Type
 	Children:
-		Content: Type: FunctionCallNode, Start: 5, 1, End: 5, 10, Content: ""
-		Type: FunctionCallNode
+		Content: Type: FullSymbol, Start: 5, 1, End: 5, 4, Content: ""
+		Type: FullSymbol
 		Children:
-			Content: Type: FullSymbol, Start: 5, 1, End: 5, 4, Content: ""
-			Type: FullSymbol
+			Content: Type: Symbol, Start: 5, 1, End: 5, 4, Content: "foo"
+			Type: Symbol
 			Children:
-				Content: Type: Symbol, Start: 5, 1, End: 5, 4, Content: "foo"
-				Type: Symbol
-				Children:
 
-			Content: Type: FunctionArgumentsList, Start: 5, 4, End: 5, 6, Content: ""
-			Type: FunctionArgumentsList
+		Content: Type: ParameterList, Start: 5, 4, End: 5, 6, Content: ""
+		Type: ParameterList
+		Children:
+			Content: Type: FunctorParameters, Start: 5, 4, End: 5, 6, Content: ""
+			Type: FunctorParameters
 			Children:
 				Content: Type: LeftParenthesis, Start: 5, 4, End: 5, 5, Content: "("
 				Type: LeftParenthesis
@@ -157,8 +157,11 @@ Children:
 				Type: RightParenthesis
 				Children:
 
-			Content: Type: FunctionArgumentsList, Start: 5, 6, End: 5, 8, Content: ""
-			Type: FunctionArgumentsList
+		Content: Type: ParameterList, Start: 5, 6, End: 5, 8, Content: ""
+		Type: ParameterList
+		Children:
+			Content: Type: FunctorParameters, Start: 5, 6, End: 5, 8, Content: ""
+			Type: FunctorParameters
 			Children:
 				Content: Type: LeftParenthesis, Start: 5, 6, End: 5, 7, Content: "("
 				Type: LeftParenthesis
@@ -168,8 +171,11 @@ Children:
 				Type: RightParenthesis
 				Children:
 
-			Content: Type: FunctionArgumentsList, Start: 5, 8, End: 5, 10, Content: ""
-			Type: FunctionArgumentsList
+		Content: Type: ParameterList, Start: 5, 8, End: 5, 10, Content: ""
+		Type: ParameterList
+		Children:
+			Content: Type: FunctorParameters, Start: 5, 8, End: 5, 10, Content: ""
+			Type: FunctorParameters
 			Children:
 				Content: Type: LeftParenthesis, Start: 5, 8, End: 5, 9, Content: "("
 				Type: LeftParenthesis
