@@ -68,6 +68,7 @@
         While,
         For, 
         In,
+        Null,
 
         Empty,//empty node
 
@@ -89,6 +90,7 @@
         DeclarationNode,
         ReturnNode,
         Value,
+        SpecialValue,
 
         RootNode,
 
@@ -99,6 +101,7 @@
         CodeConstruct,
         WhileLoop,
         ForLoop,
+        ForEachLoop,
         Function,
         ConditionalSentence,
 

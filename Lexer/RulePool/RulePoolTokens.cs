@@ -10,6 +10,7 @@ namespace Lexer
     {
         private static Condition CastOperator { get { return TokenType.CastOperator; } }
         private static Condition ForLoop { get { return TokenType.ForLoop; } }
+        private static Condition ForEachLoop { get { return TokenType.ForEachLoop; } }
         private static Condition For { get { return TokenType.For; } }
         private static Condition In { get { return TokenType.In; } }
         private static Condition InfixNode { get { return TokenType.InfixNode; } }
@@ -116,5 +117,7 @@ namespace Lexer
         private static Condition LeftBracket { get { return TokenType.LeftBracket; } }
         private static Condition FunctorParameters { get { return TokenType.FunctorParameters; } }
         private static Condition InitializerList { get { return TokenType.InitializerList; } }
+        private static Condition Null { get { return TokenType.Null; } }
+        private static Condition SpecialValue { get { return TokenType.SpecialValue; } }
     }
 }

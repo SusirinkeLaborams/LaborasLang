@@ -15,6 +15,7 @@ namespace Lexer
                         CodeBlockNode,
                         WhileLoop,
                         ForLoop,
+                        ForEachLoop,
                         ConditionalSentence,
                         StatementWithEndOfLine),
 
@@ -141,7 +142,11 @@ namespace Lexer
                         ArrayLiteral,
                         Function,
                         Symbol,
-                        LiteralNode),
+                        LiteralNode,
+                        SpecialValue),
+
+                    AlwaysCollapsableParseRule(SpecialValue,
+                        Null),
 
                     ParseRule(LiteralNode,                       
                         Float,
@@ -201,8 +206,10 @@ namespace Lexer
                     ParseRule(WhileLoop,
                         While + LeftParenthesis + Value + RightParenthesis + CodeConstruct),
 
+                    ParseRule(ForEachLoop,
+                        For + LeftParenthesis + DeclarationNode + In + Value + RightParenthesis + CodeConstruct),
+
                     ParseRule(ForLoop,
-                        For + LeftParenthesis + DeclarationNode + In + Value + RightParenthesis + CodeConstruct,
                         For + LeftParenthesis + Optional(Value) + EndOfLine + Optional(Value) + EndOfLine + Optional(Value) + RightParenthesis + CodeConstruct,
                         For + LeftParenthesis + Optional(DeclarationNode) + EndOfLine + Optional(Value) + EndOfLine + Optional(Value) + RightParenthesis + CodeConstruct
                      ),
